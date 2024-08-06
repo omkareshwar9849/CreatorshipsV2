@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://omkareshwar9849.github.io/CreatorshipsV2/static/css/main.253bcda2.css",
-    "main.js": "https://omkareshwar9849.github.io/CreatorshipsV2/static/js/main.fb7a5898.js",
+    "main.js": "https://omkareshwar9849.github.io/CreatorshipsV2/static/js/main.419a38f6.js",
     "static/media/registration.png": "https://omkareshwar9849.github.io/CreatorshipsV2/static/media/registration.e5149f2ea45b3d25ce10.png",
     "static/media/Background.png": "https://omkareshwar9849.github.io/CreatorshipsV2/static/media/Background.8266dd47900a09913f55.png",
     "index.html": "https://omkareshwar9849.github.io/CreatorshipsV2/index.html",
     "main.253bcda2.css.map": "https://omkareshwar9849.github.io/CreatorshipsV2/static/css/main.253bcda2.css.map",
-    "main.fb7a5898.js.map": "https://omkareshwar9849.github.io/CreatorshipsV2/static/js/main.fb7a5898.js.map"
+    "main.419a38f6.js.map": "https://omkareshwar9849.github.io/CreatorshipsV2/static/js/main.419a38f6.js.map"
   },
   "entrypoints": [
     "static/css/main.253bcda2.css",
-    "static/js/main.fb7a5898.js"
+    "static/js/main.419a38f6.js"
   ]
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Section = ({ title, description, children, bgClass,backgroundImage }) => (
-  <section className={`w-full py-12 md:py-24 lg:py-24 ${bgClass}`}
+  <section className={`w-full py-12 md:py-24 lg:py-24 ${bgClass} flex justify-center`}
   style={backgroundImage ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}
 >
     <div className="container space-y-12 px-4 md:px-6" >

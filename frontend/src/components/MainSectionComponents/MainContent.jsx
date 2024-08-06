@@ -47,7 +47,7 @@ const MainContent = () => {
 
   return (
     <main className="flex-1">
-      <section className="w-full py-12 md:py-24 lg:py-24 bg-slate-200"  style={{backgroundColor:"white" , backgroundImage:`url(${background_img})`}}>
+      <section className="w-full py-12 md:py-24 lg:py-24 bg-slate-200 flex justify-center"  style={{backgroundColor:"white" , backgroundImage:`url(${background_img})`}}>
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <Card

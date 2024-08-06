@@ -1,14 +1,27 @@
-import React from 'react';
-import {useNavigate } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 
+const host = process.env.REACT_APP_BACKEND_HOST;
 
 function Header() {
     let navigate = useNavigate();
-    const handleLogout=()=>{
+    
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${host}`);
+            } catch (error) {
+                console.error('Some error occured:', error);
+            }
+        };
+        fetchData();
+    }, []);
+
+    const handleLogout = () => {
         localStorage.removeItem('token');
         localStorage.removeItem('type');
         navigate("/");
-    }
+    };
 
     return (
         <header className="sticky top-0 z-40 w-full border-b bg-background px-4 py-3 shadow-sm md:px-6 md:py-4" style={{ backgroundColor: '#EBD96B' }}>

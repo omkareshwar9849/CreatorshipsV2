@@ -57,7 +57,7 @@ function Main() {
           { text: 'Join as a Creator', primary: false, onClick:() => window.location.href = '/submit-creator' },
         ]}
       /> */}
-      <MainContent />
+        <MainContent />
       <Section
         title="Boutique Outreach"
         description="Creatorships is initially focused on personalized outreach to businesses and creators to facilitate partnerships. We operate as a boutique service to make the best matches."

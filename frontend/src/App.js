@@ -35,8 +35,7 @@ function App() {
         <Alert alert={alert} />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/other-businesses" element={<CompanyListings />} />
-          <Route path="/Creatorships" element={<Main />} />
+          <Route path="/CreatorshipsV2" element={<Main />} />
           <Route path="/signin" element={<Signin showAlert={showAlert} />} />
           <Route path="/signup" element={<Signup showAlert={showAlert} />} />
           <Route path="/submit-business" element={<BusinessForm showAlert={showAlert} />} />
@@ -45,6 +44,7 @@ function App() {
           <Route path="/businesses" element={<BusinessDetails showAlert={showAlert} />} />
           <Route path="/creators" element={<CreatorDetails showAlert={showAlert} />} />
           <Route path="/about" element={<About showAlert={showAlert} />} />
+          <Route path="/other-businesses" element={<CompanyListings />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

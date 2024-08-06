@@ -1,0 +1,28 @@
+#card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.1s ease, transform 0.2s ease;
+  }
+  
+  #card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+  }
+
+  #card_icon{
+    background-color: #EBD96B;
+    padding: 3px;
+    border-radius: 50%;
+  }
+
+  #card_button{
+   color: #EBD96B;
+   border: solid 0.1px #EBD96B;
+  }
+
+  #card_button:hover{
+    background-color: #EBD96B;
+    color: white;
+  }

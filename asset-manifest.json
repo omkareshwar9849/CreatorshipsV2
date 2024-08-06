@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CreatorshipsV2/static/css/main.253bcda2.css",
-    "main.js": "/CreatorshipsV2/static/js/main.05d323d9.js",
+    "main.js": "/CreatorshipsV2/static/js/main.cac222f8.js",
     "static/media/registration.png": "/CreatorshipsV2/static/media/registration.e5149f2ea45b3d25ce10.png",
     "static/media/Background.png": "/CreatorshipsV2/static/media/Background.8266dd47900a09913f55.png",
     "index.html": "/CreatorshipsV2/index.html",
     "main.253bcda2.css.map": "/CreatorshipsV2/static/css/main.253bcda2.css.map",
-    "main.05d323d9.js.map": "/CreatorshipsV2/static/js/main.05d323d9.js.map"
+    "main.cac222f8.js.map": "/CreatorshipsV2/static/js/main.cac222f8.js.map"
   },
   "entrypoints": [
     "static/css/main.253bcda2.css",
-    "static/js/main.05d323d9.js"
+    "static/js/main.cac222f8.js"
   ]
 }
